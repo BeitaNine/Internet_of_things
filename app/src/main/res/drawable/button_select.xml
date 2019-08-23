@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!--没按压时候-->
+    <item  android:state_pressed="false"
+           android:drawable="@color/nopressed">
+        <shape android:shape="rectangle"
+               android:color="#FFAD33" />
+        <corners
+            android:radius="25dp" />
+    </item>
+    <item  android:state_pressed="true"
+           android:drawable="@color/pressed">
+        <shape android:shape="rectangle"
+            android:color="#FFAD33" />
+        <corners
+            android:radius="25dp" />
+
+    </item>
+
+</selector>
